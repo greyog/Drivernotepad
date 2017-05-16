@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Driver notepad</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="saveEntry">Save</string>
+    <string name="cancelEntry">Cancel</string>
+    <string name="maybe">Maybe</string>
+    <string name="odometerValue">Odometer alue</string>
+    <string name="amountValue">Fuel amount</string>
+    <string name="odometerLabel">Odometer</string>
+    <string name="amountLabel">Amount</string>
+    <string name="priceLabel">Price</string>
+    <string name="totalPriceLabel">Total price</string>
+    <string name="entryFragmentTitle">Edit entry</string>
+    <string-array name="edit_entry_array">
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+</resources>

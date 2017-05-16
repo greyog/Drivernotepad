@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvListEntryID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tvListEntryID"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txListEntryCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="txListEntryCar"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvListEntryFuelType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tvListEntryFuelType"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvListEntryOdometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tvListEntryOdometer"
+        android:layout_alignParentStart="true"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:id="@+id/tvListEntryAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tvListEntryAmount"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_below="@+id/tvListEntryOdometer"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/tvListEntryMul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" x "
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_below="@+id/tvListEntryOdometer"
+        android:layout_alignEnd="@+id/tvListEntryOdometer" />
+    <TextView
+        android:id="@+id/tvListEntryPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tvListEntryPrice"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_alignBaseline="@+id/tvListEntryMul"
+        android:layout_alignBottom="@+id/tvListEntryMul"
+        android:layout_toEndOf="@+id/tvListEntryMul" />
+    <TextView
+        android:id="@+id/tvListEntryResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" = "
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_alignBaseline="@+id/tvListEntryPrice"
+        android:layout_alignBottom="@+id/tvListEntryPrice"
+        android:layout_toEndOf="@+id/tvListEntryPrice" />
+    <TextView
+        android:id="@+id/tvListEntryTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tvListEntryTotalPrice"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_alignBaseline="@+id/tvListEntryResult"
+        android:layout_alignBottom="@+id/tvListEntryResult"
+        android:layout_toEndOf="@+id/tvListEntryResult" />
+
+    <TextView
+        android:id="@+id/tvListEntryDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tvListEntryDate"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_below="@+id/tvListEntryAmount"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tvListEntryTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tvListEntryTime"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:visibility="gone" />
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView9"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="TextView" />-->
+    </RelativeLayout>
